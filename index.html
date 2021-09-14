@@ -55,7 +55,7 @@
       <div class="content">
         <nav class="sidebar">
           <ul class="sidebar__list">
-            <li class="sidebar__item">
+            <li class="sidebar__item sidebar__item--actie">
               <a href="#" class="sidebar__link">
                 <svg class="sidebar__icon">
                   <use xlink:href="img/sprite.svg#icon-home"></use>
@@ -88,9 +88,64 @@
               </a>
             </li>
           </ul>
-          <div class="legal">&copy; by trilo. All rights reserved.</div>
+          <div class="legal">&copy; 2021 by trilo. All rights reserved.</div>
         </nav>
-        <main class="hotel-view">Hotel view</main>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="galler__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Photo of the hotel 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="galler__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Photo of the hotel 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="galler__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Photo of the hotel 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Hotel Las Palmas</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn__inline">Albifeira, Portugal</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">4.9</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
+        </main>
       </div>
     </div>
   </body>
